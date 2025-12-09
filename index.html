@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Belajar Konversi Bilangan & Sandi Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Belajar Konversi Bilangan & Sandi Digital</h1>
+</header>
+
+<nav>
+  <a href="#konversi">Konversi Dasar</a>
+  <a href="#bcd">BCD</a>
+  <a href="#ex3">Excess-3</a>
+  <a href="#gray">Gray</a>
+  <a href="#ascii">ASCII</a>
+</nav>
+
+<div class="container">
+  <div id="konversi" class="section">
+    <h2>Konversi Bilangan Dasar (Desimal ↔ Biner / Oktal / Hexa)</h2>
+    <label for="decInput">Masukkan angka desimal</label>
+    <input type="number" id="decInput" placeholder="contoh: 125">
+    <button id="btnConvertBasic">Tampilkan langkah & Konversi</button>
+    <div id="basicResult" class="result"></div>
+  </div>
+
+  <div id="bcd" class="section">
+    <h2>BCD (Binary Coded Decimal)</h2>
+    <label for="bcdInput">Masukkan angka desimal</label>
+    <input type="text" id="bcdInput" placeholder="contoh: 197">
+    <button id="btnBCD">Tampilkan langkah & Konversi</button>
+    <div id="bcdResult" class="result"></div>
+  </div>
+
+  <div id="ex3" class="section">
+    <h2>Excess-3</h2>
+    <label for="exInput">Masukkan angka desimal</label>
+    <input type="text" id="exInput" placeholder="contoh: 45">
+    <button id="btnEX3">Tampilkan langkah & Konversi</button>
+    <div id="exResult" class="result"></div>
+  </div>
+
+  <div id="gray" class="section">
+    <h2>Gray Code</h2>
+    <label for="grayInput">Masukkan biner</label>
+    <input type="text" id="grayInput" placeholder="contoh: 1100">
+    <button id="btnGray">Tampilkan langkah & Konversi</button>
+    <div id="grayResult" class="result"></div>
+  </div>
+
+  <div id="ascii" class="section">
+    <h2>ASCII (multiple karakter)</h2>
+    <label for="asciiInput">Masukkan teks</label>
+    <textarea id="asciiInput" rows="3" placeholder="contoh: Hello"></textarea>
+    <button id="btnASCII">Tampilkan tabel ASCII</button>
+    <div id="asciiResult" class="result"></div>
+  </div>
+</div>
+
+<footer>
+  Faisal Fahri  © 2025
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
